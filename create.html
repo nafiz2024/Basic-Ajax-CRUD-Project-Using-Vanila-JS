@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUB Project</title>
+    <link rel="stylesheet" href="css/milligram.css" />
+  </head>
+  <body>
+    <div id="loader" class="loading d-none"></div>
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <label for="">Product Name</label>
+          <input id="ProductName" type="text" />
+          <label for="">Product Code</label>
+          <input id="ProductCode" type="text" />
+          <label for="">Product Image Link</label>
+          <input id="ProductImg" type="text" />
+          <label for="">Unit Price</label>
+          <input id="UnitPrice" type="text" />
+          <label for="">Product Qty</label>
+          <input id="ProductQty" type="text" />
+          <label for="">Product Total</label>
+          <input id="ProductTotal" type="text" />
+          <button onclick="CreateData()" type="submit">Submit</button>
+        </div>
+      </div>
+    </div>
+    <script src="JS/axios.min.js"></script>
+    <script src="JS/index.js"></script>
+  </body>
+</html>
